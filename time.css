@@ -1,0 +1,56 @@
+/* :root {
+  --clr-1: #000;
+  --clr-2: #fff;
+  --body-bgclr: #fff;
+  --bgclr-1: #3f51b5;
+  --bgclr-2: #283593;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--body-bgclr);
+  /* font: 300 1rem / normal sans-serif; */
+
+  text-align: center;
+}
+h1 {
+  color: var(--clr-1);
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 40px 0 10px;
+}
+p #deadline {
+  color: var(--clr-1);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#clockdiv {
+  color: var(--clr-2);
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+}
+#clockdiv > div {
+  background-color: var(--bgclr-1);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px;
+}
+#clockdiv div > span {
+  background-color: var(--bgclr-2);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 15px;
+}
+.smalltext {
+  font-size: 1rem;
+  padding-top: 5px;
+}
+#demo {
+  color: red;
+  font-weight: bold;
+}
